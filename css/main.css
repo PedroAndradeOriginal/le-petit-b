@@ -1,0 +1,17 @@
+@font-face {
+    font-family: fonteprincipal;
+    src: url(fonts/AMATICSC-BOLD.TTF)
+}
+
+@font-face {
+    font-family: fontesecundaria;
+    src: url(fonts/SEGUIEMJ.TTF)
+}
+
+h1 {
+    font-family: fonteprincipal;
+}
+
+p {
+    font-family: fontesecundaria;
+}
