@@ -1,0 +1,12 @@
+Cores:
+
+#1D1D1B
+
+#FFED00
+
+#D4EDFC
+
+#FFFFFF
+
+#C6C6C6
+
