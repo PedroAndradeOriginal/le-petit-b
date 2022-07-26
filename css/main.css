@@ -1,3 +1,5 @@
+/*======================== configurações gerais ====================*/
+
 body {
     width: 100%;
     height: 70rem;
@@ -15,13 +17,18 @@ body {
     src: url(fonts/SEGUIEMJ.TTF)
 }
 
+
+/*===================== Barra de navegação =======================*/
+
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .navbar-collapse {
+    width: 60%;
     flex-grow: 0;
+    text-align: center;
 }
 
 .navbar-brand img {
@@ -29,8 +36,31 @@ body {
     height: 3rem;
 }
 
-.navbar-nav a{
+.navbar-brand img:hover {
+    transform: scale(1.3);
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav a {
     font-family: fonte01;
-    color: #16181b!important;
+    color: #16181b !important;
     font-size: 2rem;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.3);
+}
+
+/* ========================== responsivo =============================*/
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
 }
