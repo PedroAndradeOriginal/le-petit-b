@@ -11,3 +11,4 @@ ScrollReveal({
 // Delay
 
 sr.reveal('.carousel', { delay: 250 })
+sr.reveal('.frase', { delay: 150 })

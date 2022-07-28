@@ -2,7 +2,6 @@
 
 body {
     width: 100%;
-    height: 70rem;
     background-color: #D4EDFC;
 }
 
@@ -125,9 +124,9 @@ body {
 }
 
 
-/* CUSTOMIZA O CAROUSEL
--------------------------------------------------- */
-.carousel-control-next, .carousel-control-prev {
+/* ===================== CUSTOMIZA O CAROUSEL ====================== */
+.carousel-control-next,
+.carousel-control-prev {
     color: #1D1D1B;
 }
 
@@ -175,6 +174,70 @@ body {
     height: 40rem;
 }
 
+/* ========================== primeira section =============================*/
+
+.primeira-section {
+    height: 26rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+
+.frase h1{
+    font-family: fonte01;
+    font-size: 4rem;
+}
+
+.frase p{
+    font-family: fonte02;
+}
+
+/* ========================== Footer =============================*/
+
+footer {
+    height: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+footer span {
+    color: #ad17b5;
+    font-size: 1rem;
+}
+
+.descricao-dev {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.social-dev {
+    width: 10rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-dev img {
+    height: 20px;
+}
+
+
 /* ========================== responsivo =============================*/
 
 @media screen and (max-width: 1012px) {
@@ -189,7 +252,7 @@ body {
     .carousel h1 {
         font-size: 5rem;
     }
-    
+
     .carousel p {
         font-size: 1.5rem;
     }
